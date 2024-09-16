@@ -6,7 +6,9 @@
 
 body {
     font-family: "SUSE", sans-serif;
-    background-color: #fffbfc;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
 }
 
 #container {
@@ -52,4 +54,17 @@ body {
     background: #8a89c0;
     border: none;
     outline: none;
+}
+
+#ran__bg__color {
+    width: 200px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    outline: none;
+    border: none;
+    text-transform: uppercase;
+    border: 3px solid #cdb4db;
+    background: #ffafcc;
+    color: #fff;
 }

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "SUSE", sans-serif;
+    background-color: #fffbfc;
+}
+
+#container {
+    max-width: 1024px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.color__box {
+    margin-top: 50px;
+    display: flex;
+    gap: 1rem;
+}
+
+#box {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    background-color: #fffbfc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#color__square {
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+#ran__btn {
+    font-size: 15px;
+    text-transform: uppercase;
+    width: 300px;
+    margin-top: 30px;
+    padding: 15px;
+    background: #8a89c0;
+    border: none;
+    outline: none;
+}
